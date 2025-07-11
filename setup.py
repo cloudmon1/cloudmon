@@ -7,7 +7,7 @@ setuptools.setup(
     name="cloudmon",
     version="0.1",
     author="cloudmon1",
-    author_email="your_email",
+    author_email="itsue.aasu@gmail.com",
     description="This is a test package.",
     long_description=read_me_description,
     long_description_content_type="text/markdown",
