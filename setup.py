@@ -12,7 +12,6 @@ setuptools.setup(
     long_description=read_me_description,
     long_description_content_type="text/markdown",
     url="package_github_page",
-    packages=['test_package'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
