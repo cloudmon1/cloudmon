@@ -4,7 +4,7 @@ with open("README.md") as file:
     read_me_description = file.read()
 
 setuptools.setup(
-    name="scoudmon",
+    name="cloudmon",
     version="0.1",
     author="cloudmon1",
     author_email="your_email",
