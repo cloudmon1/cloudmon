@@ -14,6 +14,9 @@ SND_PATH = os.environ['SND_PATH']
 TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
 TLG_CHAT_ID = os.environ['TLG_CHAT_ID']
 
+requests.post("https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage",
+                                 data={"chat_id": TLG_CHAT_ID, "text": "Application startup"})
+
 connection = psycopg2.connect(DATABASE_URL, sslmode='require')
 cursor = connection.cursor()
 try:
