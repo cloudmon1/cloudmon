@@ -33,7 +33,7 @@ finally:
         print("Close connection to PostgreSQL")
 
 app = Flask(__name__)
-#app.debug = True
+app.debug = True
 password = str.encode(PASSPHRASE)
 
 
