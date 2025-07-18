@@ -208,5 +208,5 @@ def receive_msg():
         return {"ok": False}
 
 
-port = int("PORT", 3000)
-app.run(host="0.0.0.0", port=port)
+#port = int(os.getenv('PORT', 4444))
+app.run(host="0.0.0.0", port=3000)
